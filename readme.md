@@ -7,6 +7,8 @@ Once enough photos have been uploaded for training Google Collaboratory can be u
 on the platform.
 
 ### Script Use
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
 #### camera_test.py
 * -t Length in minutes to take photos
 * -f frequency in seconds to take photos
