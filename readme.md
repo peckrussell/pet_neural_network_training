@@ -6,4 +6,8 @@ them to a google drive account.
 Once enough photos have been uploaded for training Google Collaboratory can be used to train the neural network utilizing the free GPU/TPUs
 on the platform.
 
+### Script Use
 #### camera_test.py
+-t Length in minutes to take photos
+-f frequency in seconds to take photos
+-l List of names of individuals in photo (i.e. 'milo', 'milo_alex')
