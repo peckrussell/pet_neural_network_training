@@ -8,6 +8,6 @@ on the platform.
 
 ### Script Use
 #### camera_test.py
--t Length in minutes to take photos
--f frequency in seconds to take photos
--l List of names of individuals in photo (i.e. 'milo', 'milo_alex')
+* -t Length in minutes to take photos
+* -f frequency in seconds to take photos
+* -l List of names of individuals in photo (i.e. 'milo', 'milo_alex')
