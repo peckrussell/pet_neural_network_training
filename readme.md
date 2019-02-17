@@ -5,3 +5,5 @@ them to a google drive account.
 
 Once enough photos have been uploaded for training Google Collaboratory can be used to train the neural network utilizing the free GPU/TPUs
 on the platform.
+
+#### camera_test.py
