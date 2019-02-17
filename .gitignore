@@ -1,0 +1,13 @@
+# ignore the following
+piphotos_*
+rm_photos.py
+google_drive_config.py
+
+
+**__pycache__
+**.json
+**.pickle
+**.txt
+**.jpg
+/google_drive_upload/quickstart.py
+
