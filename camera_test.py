@@ -46,6 +46,26 @@ def take_picture(camera, photo_folder, photo_freq, photo_time, labels):
 
    return pic_count, session_time
 
+def folder_photo_deduplicate():
+   import hashlib
+   import imghdr
+   from PIL import Image
+
+   hash_dict = {}
+   formats = ['jpeg', 'png']
+
+   for i in os.listdir():
+      if imghdr.what(i) in formats:
+         with Image.open(i) as img:
+            hash_val = hashlib.md5(img.tobytes()).hexdigest()
+         if hash_val in hash_dict.keys():
+            os.remove(i)
+            hash_dict[hash_val] += 1
+         else:
+            hash_dict[hash_val] = 1
+   return hash_dict
+
+
 def move_to_s3():
    print('test')
 
