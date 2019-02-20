@@ -6,6 +6,10 @@ them to a google drive account.
 Once enough photos have been uploaded for training Google Collaboratory can be used to train the neural network utilizing the free GPU/TPUs
 on the platform.
 
+### Environment Setup
+-----------------------------------------------------------------------------------------------------
+pi_photos.yml is included for environment setup with conda
+
 ### Script Use : camera_test.py
 -----------------------------------------------------------------------------------------------------
 #### ex) python3 camera_test.py -t 2 -f 10 -l 'milo'
